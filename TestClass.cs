@@ -4,4 +4,10 @@ public class TestClass
     {
         System.Console.WriteLine("Hello, World!");
     }
+
+    public bool TestAddition()
+    {
+        int result = 2 + 3;
+        return result == 5;
+    }
 }
